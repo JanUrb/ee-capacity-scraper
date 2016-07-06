@@ -1,5 +1,11 @@
 __author__ = 'Jan'
+"""
+This scraper is for the website http://mapa.czrea.org/instalace.php?TYP_INSTALACE=&OFFSET=0.
+Unfortunately, some of the entries do not have values for the EE capacity
+Check out the other czech scraper.
 
+
+"""
 import logging
 from bs4 import BeautifulSoup
 import requests
@@ -60,7 +66,7 @@ def extract_links(power_stations_table):
 
 
 def extract_data_from_power_station_table(power_station_table_url):
-    # Some pages do not have a capacity field.....
+    # Some pages do not have a capacity field..........
     r = requests.get(BASE_URL+power_station_table_url)
     # check if the request was successful
     if r.status_code != 200:
