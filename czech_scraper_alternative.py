@@ -15,11 +15,14 @@ log = logging.getLogger(__file__)
 log.setLevel(logging.INFO)
 log.addHandler(logging.StreamHandler())
 
+TARGET_NAME = 'elektrarny.pro'
 START_URL = 'http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej&stranka='
 BASE_URL = 'http://www.elektrarny.pro/'
 # source: the page navigation at the bottom
 MAX_PAGE = 261
 MAX_NUMBER_ENTRIES = 26088
+DELAY_MAX = 20
+DELAY_DURATION = 2
 
 # https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 # structure: name_of_power_station: capacity
@@ -96,19 +99,12 @@ def download_data_from_link(target_url):
 
 
 def start_script():
-    # it seems that this page is blocked/changed
-    # with create_power_station_links() werden die links automatisch erstellt.
-    # from 1 to MAX_PAGE+1
-    # for i in range(1, MAX_PAGE + 1):
-    #     target_url = START_URL + str(i)
-    #     get_power_station_links(target_url)
-
     create_power_station_links()
 
     log.info('number of scraped links: ' + str(len(scraped_links)))
     log.info('saving links to csv')
 
-    with open('links.csv', 'w', encoding='utf-8') as linkcsv:
+    with open(TARGET_NAME + '_links.csv', 'w', encoding='utf-8') as linkcsv:
         writer = csv.writer(linkcsv, lineterminator='\n')
         # csv header
         # the writer expects a sequence and will split up the string.
@@ -119,7 +115,7 @@ def start_script():
 
     download_counter = 0
     delay_flag = 0
-    DELAY_MAX = 20
+
     new_target = None
     reset_counter = 0
     MAX_RESET_COUNTER = 5
@@ -143,9 +139,9 @@ def start_script():
                 if reset_counter == 5:
                     raise Exception('The number of MAX consecutive resets is reached!')
 
-                log.warning('Connection Error - retrying after 1 seconds')
+                log.warning('Connection Error - retrying after ' + str(DELAY_DURATION) + 'seconds')
                 log.warning('Download Counter: ' + str(download_counter))
-                time.sleep(1)
+                time.sleep(DELAY_DURATION)
 
 
         # Unknown and unhandled Exception. Save current data and exit the script
@@ -163,7 +159,7 @@ def start_script():
             log.info('Download Counter: ' + str(download_counter))
             time.sleep(sleep_timer)
 
-    with open('data.csv', 'w', encoding='utf-8') as datacsv:
+    with open(TARGET_NAME + '_data.csv', 'w', encoding='utf-8') as datacsv:
         log.info('Writing to data.csv')
         column_names = ['name', 'capacity', 'address', 'start_up_date', 'region', 'district',
                         'operator_name', 'ICO', 'operator_address', 'operator license', 'operator_region',
