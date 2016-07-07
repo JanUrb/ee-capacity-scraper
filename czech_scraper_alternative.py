@@ -90,8 +90,28 @@ def download_data_from_link(target_url):
 #     print(entry)
 # write_to_csv(
 def start_script():
-    download_data_from_link(BASE_URL + 'detail.php?id=2')
-    log.debug(scraped_power_plant_data)
+    # from 1 to MAX_PAGE+1
+    for i in range(1, MAX_PAGE + 1):
+        target_url = START_URL + str(i)
+        get_power_station_links(target_url)
+
+    log.info('number of scraped links: ' + str(len(scraped_links)))
+    log.info('saving links to csv')
+
+    with open('links.csv', 'w') as linkscsv:
+        writer = csv.writer(linkscsv)
+        # csv header
+        # the writer expects a sequence and will split up the string.
+        # wrapping it in a list stops that
+        writer.writerow(['links'])
+        for entry in list(scraped_links):
+            writer.writerow([entry])
+
+
+
+    # for links in scraped_links:
+    #     download_data_from_link(BASE_URL + links)
+    # log.debug(scraped_power_plant_data)
 
 
 if __name__ == '__main__':

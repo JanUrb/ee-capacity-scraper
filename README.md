@@ -15,5 +15,6 @@ Czech data:
 2. http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej
     * Has the capacity listed for all (so far) power stations
     * Does not have the type of power station listed
+    * Has 26088 entries
 
     
