@@ -14,16 +14,19 @@ log = logging.getLogger(__file__)
 log.setLevel(logging.DEBUG)
 log.addHandler(logging.StreamHandler())
 
-BASE_URL = 'http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej&stranka='
+START_URL = 'http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej&stranka='
+BASE_URL = 'http://www.elektrarny.pro/'
 # source: the page navigation at the bottom
 MAX_PAGE = 261
 
 # https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 # structure: name_of_power_station: capacity
-scraped_data = {}
+scraped_power_plant_data = []
+scraped_links = set()
 
 
 def get_power_station_links(page_url):
+    log.debug(page_url)
     r = requests.get(page_url)
     if r.status_code != 200:
         log.warning('Error requesting '+ page_url + '\tError code: '+r.status_code)
@@ -34,17 +37,67 @@ def get_power_station_links(page_url):
     data_table = soup.find('table')
     # the first row contains the table header
     data_rows = data_table.find_all('tr')[1:]
-
-    # TODO: Some names are double which causes them to overwrite previous entries.
-    # new idea: simple list with this structure [{'name': name, 'capcaity':
-    # extracting the data
     for row in data_rows:
-        name_of_power_station = row.select('td a')[0].text
-        capacity_of_power_station = row.select('td:nth-of-type(2)')[0].text
-        log.debug('name: '+name_of_power_station+'\t capacity: '+capacity_of_power_station)
-        scraped_data[name_of_power_station] = capacity_of_power_station
+        link = row.select('td a')[0]['href']
+        scraped_links.add(link)
 
-get_power_station_links(BASE_URL)
-for entry in scraped_data:
-    print(entry)
-# write_to_csv()
+
+
+def download_data_from_link(target_url):
+    log.debug(target_url)
+    r = requests.get(target_url)
+    if r.status_code != 200:
+        log.warning('Status code: ' + r.status_code + '\t' + target_url)
+        return None
+
+
+    basic_information_header = 'Základní informace o elektrárně'
+    plant_owner_header = 'Majitel elektrárny'
+    cadastral_information_header = 'Katastrální informace'
+
+    scraped_info = {}
+
+    soup = BeautifulSoup(r.text, 'lxml')
+    data_boxes = soup.find_all('div', class_='boxik')
+    for box in data_boxes:
+        header_text = box.find('h2').text
+        table_data = box.find_all('td')
+        if header_text == basic_information_header:
+            scraped_info['name'] = table_data[0].text
+            scraped_info['capacity'] = table_data[1].text
+            scraped_info['address'] = table_data[2].text
+            scraped_info['start_up_date'] = table_data[3].text
+            scraped_info['region'] = table_data[4].text
+            scraped_info['district'] = table_data[5].text
+        elif header_text == plant_owner_header:
+            scraped_info['operator_name'] = table_data[0].text
+            # not sure what exactly ICO is
+            scraped_info['ICO'] = table_data[1].text
+            scraped_info['operator_address'] = table_data[2].text
+            scraped_info['operator license'] = table_data[3].text
+            scraped_info['operator_region'] = table_data[4].text
+            scraped_info['operator_district'] = table_data[5].text
+        elif header_text == cadastral_information_header:
+            table_data = box.find_all('td')
+            scraped_info['cadastre_area'] = table_data[0].text
+            scraped_info['cadastre_code'] = table_data[1].text
+            scraped_info['cadastre_municipal'] = table_data[2].text
+            scraped_info['cadastre_demarcation'] = table_data[3].text
+        else:
+            pass
+
+    scraped_power_plant_data.append(scraped_info)
+
+
+
+# get_power_station_links(BASE_URL)
+# for entry in scraped_links:
+#     print(entry)
+# write_to_csv(
+def start_script():
+    download_data_from_link(BASE_URL + 'detail.php?id=2')
+    log.debug(scraped_power_plant_data)
+
+
+if __name__ == '__main__':
+    start_script()
