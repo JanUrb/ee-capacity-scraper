@@ -3,12 +3,10 @@ __author__ = 'Jan'
 Since the other source is incomplete, this scraper uses http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej as source.
 """
 
-
 from bs4 import BeautifulSoup
 import requests
 import logging
 import csv
-
 
 log = logging.getLogger(__file__)
 log.setLevel(logging.DEBUG)
@@ -29,7 +27,7 @@ def get_power_station_links(page_url):
     log.debug(page_url)
     r = requests.get(page_url)
     if r.status_code != 200:
-        log.warning('Error requesting '+ page_url + '\tError code: '+r.status_code)
+        log.warning('Error requesting ' + page_url + '\tError code: ' + r.status_code)
         return None
 
     soup = BeautifulSoup(r.text, 'lxml')
@@ -42,14 +40,12 @@ def get_power_station_links(page_url):
         scraped_links.add(link)
 
 
-
 def download_data_from_link(target_url):
     log.debug(target_url)
     r = requests.get(target_url)
     if r.status_code != 200:
         log.warning('Status code: ' + r.status_code + '\t' + target_url)
         return None
-
 
     basic_information_header = 'Základní informace o elektrárně'
     plant_owner_header = 'Majitel elektrárny'
@@ -87,7 +83,6 @@ def download_data_from_link(target_url):
             pass
 
     scraped_power_plant_data.append(scraped_info)
-
 
 
 # get_power_station_links(BASE_URL)
