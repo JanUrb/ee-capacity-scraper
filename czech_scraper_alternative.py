@@ -22,11 +22,11 @@ BASE_URL = 'http://www.elektrarny.pro/'
 MAX_PAGE = 261
 MAX_NUMBER_ENTRIES = 26088
 DELAY_MAX = 20
-DELAY_DURATION = 2
+DELAY_DURATION = 3
 
 # https://docs.python.org/2/tutorial/datastructures.html#dictionaries
 # structure: name_of_power_station: capacity
-scraped_power_plant_data = []
+collected_power_plant_data = []
 scraped_links = set()
 
 
@@ -68,34 +68,64 @@ def download_data_from_link(target_url):
 
     soup = BeautifulSoup(r.text, 'lxml')
     data_boxes = soup.find_all('div', class_='boxik')
+
     for box in data_boxes:
         header_text = box.find('h2').text
         table_data = box.find_all('td')
-        if header_text == basic_information_header:
-            scraped_info['name'] = table_data[0].text
-            scraped_info['capacity'] = table_data[1].text
-            scraped_info['address'] = table_data[2].text
-            scraped_info['start_up_date'] = table_data[3].text
-            scraped_info['region'] = table_data[4].text
-            scraped_info['district'] = table_data[5].text
-        elif header_text == plant_owner_header:
-            scraped_info['operator_name'] = table_data[0].text
-            # not sure what exactly ICO is
-            scraped_info['ICO'] = table_data[1].text
-            scraped_info['operator_address'] = table_data[2].text
-            scraped_info['operator license'] = table_data[3].text
-            scraped_info['operator_region'] = table_data[4].text
-            scraped_info['operator_district'] = table_data[5].text
-        elif header_text == cadastral_information_header:
-            table_data = box.find_all('td')
-            scraped_info['cadastre_area'] = table_data[0].text
-            scraped_info['cadastre_code'] = table_data[1].text
-            scraped_info['cadastre_municipal'] = table_data[2].text
-            scraped_info['cadastre_demarcation'] = table_data[3].text
-        else:
-            pass
 
-    scraped_power_plant_data.append(scraped_info)
+        # init the dictionary with default values
+        # scraped_info['name'] = ''
+        # scraped_info['capacity'] = ''
+        # scraped_info['address'] = ''
+        # scraped_info['start_up_date'] = ''
+        # scraped_info['region'] = ''
+        # scraped_info['district'] = ''
+        #
+        # scraped_info['operator_name'] = ''
+        # # not sure what exactly ICO is
+        # scraped_info['ICO'] = ''
+        # scraped_info['operator_address'] = ''
+        # scraped_info['operator license'] = ''
+        # scraped_info['operator_region'] = ''
+        # scraped_info['operator_district'] = ''
+        #
+        # scraped_info['cadastre_area'] = ''
+        # scraped_info['cadastre_code'] = ''
+        # scraped_info['cadastre_municipal'] = ''
+        # scraped_info['cadastre_demarcation'] = ''
+
+        # the try block stops the script from exiting with an error. Instead the error is logged and the data that is
+        # filled in will be saved in the collected_data set
+        try:
+            if header_text == basic_information_header:
+                scraped_info['name'] = table_data[0].text
+                scraped_info['capacity'] = table_data[1].text
+                scraped_info['address'] = table_data[2].text
+                scraped_info['start_up_date'] = table_data[3].text
+                scraped_info['region'] = table_data[4].text
+                scraped_info['district'] = table_data[5].text
+            elif header_text == plant_owner_header:
+                scraped_info['operator_name'] = table_data[0].text
+                # not sure what exactly ICO is
+                scraped_info['ICO'] = table_data[1].text
+                scraped_info['operator_address'] = table_data[2].text
+                scraped_info['operator license'] = table_data[3].text
+                scraped_info['operator_region'] = table_data[4].text
+                scraped_info['operator_district'] = table_data[5].text
+            elif header_text == cadastral_information_header:
+                table_data = box.find_all('td')
+                scraped_info['cadastre_area'] = table_data[0].text
+                scraped_info['cadastre_code'] = table_data[1].text
+                scraped_info['cadastre_municipal'] = table_data[2].text
+                scraped_info['cadastre_demarcation'] = table_data[3].text
+            else:
+                pass
+
+        except IndexError as e:
+            log.warning('Error at url: ' + target_url)
+            traceback.print_exc()
+
+    collected_power_plant_data.append(scraped_info)
 
 
 def start_script():
@@ -119,7 +149,9 @@ def start_script():
     new_target = None
     reset_counter = 0
     MAX_RESET_COUNTER = 5
+    counter = 0
     while len(scraped_links) != 0:
+        counter +=1
         delay_flag += 1
 
         try:
@@ -140,7 +172,6 @@ def start_script():
                     raise Exception('The number of MAX consecutive resets is reached!')
 
                 log.warning('Connection Error - retrying after ' + str(DELAY_DURATION) + 'seconds')
-                log.warning('Download Counter: ' + str(download_counter))
                 time.sleep(DELAY_DURATION)
 
 
@@ -168,12 +199,9 @@ def start_script():
 
         writer = csv.DictWriter(datacsv, lineterminator='\n', fieldnames=column_names)
         writer.writeheader()
-        for entry in scraped_power_plant_data:
+        for entry in collected_power_plant_data:
             writer.writerow(entry)
 
-            # for links in scraped_links:
-            #     download_data_from_link(BASE_URL + links)
-            #
 
 
 if __name__ == '__main__':
