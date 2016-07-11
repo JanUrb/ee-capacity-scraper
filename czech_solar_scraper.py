@@ -1,6 +1,7 @@
 __author__ = 'Jan'
 """
-Since the other source is incomplete, this scraper uses http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej as source.
+The website scraped has listed solar power plants of czech republic.
+This scraper uses http://www.elektrarny.pro/seznam-elektraren.php?kj=nic&os=nic&vn-od=&vn-do=&nv=&ml=&le=&zobraz=Hledej as source.
 """
 
 from bs4 import BeautifulSoup
@@ -73,27 +74,6 @@ def download_data_from_link(target_url):
         header_text = box.find('h2').text
         table_data = box.find_all('td')
 
-        # init the dictionary with default values
-        # scraped_info['name'] = ''
-        # scraped_info['capacity'] = ''
-        # scraped_info['address'] = ''
-        # scraped_info['start_up_date'] = ''
-        # scraped_info['region'] = ''
-        # scraped_info['district'] = ''
-        #
-        # scraped_info['operator_name'] = ''
-        # # not sure what exactly ICO is
-        # scraped_info['ICO'] = ''
-        # scraped_info['operator_address'] = ''
-        # scraped_info['operator license'] = ''
-        # scraped_info['operator_region'] = ''
-        # scraped_info['operator_district'] = ''
-        #
-        # scraped_info['cadastre_area'] = ''
-        # scraped_info['cadastre_code'] = ''
-        # scraped_info['cadastre_municipal'] = ''
-        # scraped_info['cadastre_demarcation'] = ''
-
         # the try block stops the script from exiting with an error. Instead the error is logged and the data that is
         # filled in will be saved in the collected_data set
         try:
@@ -146,6 +126,9 @@ def start_script():
     download_counter = 0
     delay_flag = 0
 
+    # New target saves the current url. If an error occurs, new target is not set to a new url and the scraper
+    # tries scraping it again. If this happens 5 times (reset_counter), the scraper is stopped but tries to exit as
+    # gracefully as possible.
     new_target = None
     reset_counter = 0
     MAX_RESET_COUNTER = 5
@@ -173,7 +156,6 @@ def start_script():
 
                 log.warning('Connection Error - retrying after ' + str(DELAY_DURATION) + 'seconds')
                 time.sleep(DELAY_DURATION)
-
 
         # Unknown and unhandled Exception. Save current data and exit the script
         except Exception as e:
