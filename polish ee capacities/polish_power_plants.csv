@@ -1,0 +1,601 @@
+name,install_type,quantity,power
+ boles\uc0\u322 awiecki,sewage treatment plant biogas power-stations,1,0.180 
+ boles\uc0\u322 awiecki,hydro-electric power-station capacity up to 1 MW,5,2.885 
+ dzier\uc0\u380 oniowski,sewage treatment plant biogas power-stations,2,0.200 
+ dzier\uc0\u380 oniowski,dump biogas power-stations,1,0.750 
+ g\uc0\u322 ogowski,sewage treatment plant biogas power-stations,1,0.410 
+ g\uc0\u322 ogowski,photovoltaic power-stations,1,0.100 
+ g\uc0\u243 rowski,agricultural biogas power-stations,1,0.600 
+ g\uc0\u243 rowski,onshore wind power-station,1,5.000 
+ jaworski,onshore wind power-station,2,2.160 
+ Jelenia G\uc0\u243 ra,photovoltaic power-stations,1,0.010 
+ Jelenia G\uc0\u243 ra,hydro-electric power-station capacity up to 1 MW,2,1.320 
+ jeleniog\uc0\u243 rski,"hydro-electric power-station capacity up to 0,3 MW",12,2.180 
+ jeleniog\uc0\u243 rski,hydro-electric power-station capacity up to 5 MW,2,7.132 
+ kamiennog\uc0\u243 rski,"hydro-electric power-station capacity up to 0,3 MW",2,0.290 
+ k\uc0\u322 odzki,"hydro-electric power-station capacity up to 0,3 MW",15,1.434 
+ Legnica,sewage treatment plant biogas power-stations,1,0.382 
+ Legnica,photovoltaic power-stations,2,0.200 
+ legnicki,agricultural biogas power-stations,1,0.999 
+ legnicki,onshore wind power-station,1,45.100 
+ luba\uc0\u324 ski,photovoltaic power-stations,1,0.010 
+ luba\uc0\u324 ski,hydro-electric power-station capacity up to 5 MW,2,7.030 
+ lubi\uc0\u324 ski,dump biogas power-stations,2,3.180 
+ lubi\uc0\u324 ski,co-fired technology (fossil fuel and biomass),1,0.000 
+ lw\uc0\u243 wecki,"hydro-electric power-station capacity up to 0,3 MW",6,1.105 
+ lw\uc0\u243 wecki,hydro-electric power-station capacity up to 5 MW,2,3.008 
+ milicki,"hydro-electric power-station capacity up to 0,3 MW",1,0.090 
+ ole\uc0\u347 nicki,sewage treatment plant biogas power-stations,1,0.320 
+ o\uc0\u322 awski,dump biogas power-stations,1,0.400 
+ o\uc0\u322 awski,onshore wind power-station,3,9.200 
+ o\uc0\u322 awski,hydro-electric power-station capacity up to 5 MW,1,3.200 
+ polkowicki,agricultural biogas power-stations,1,0.499 
+ strzeli\uc0\u324 ski,agricultural biogas power-stations,1,2.000 
+ \uc0\u347 widnicki,sewage treatment plant biogas power-stations,2,0.487 
+ \uc0\u347 widnicki,dump biogas power-stations,2,0.970 
+ \uc0\u347 widnicki,onshore wind power-station,1,0.900 
+ \uc0\u347 widnicki,hydro-electric power-station capacity up to 5 MW,1,1.250 
+ trzebnicki,photovoltaic power-stations,1,0.020 
+ wa\uc0\u322 brzyski,photovoltaic power-stations,2,0.029 
+ wo\uc0\u322 owski,hydro-electric power-station capacity up to 10 MW,1,9.720 
+ Wroc\uc0\u322 aw,sewage treatment plant biogas power-stations,1,1.803 
+ Wroc\uc0\u322 aw,hydro-electric power-station capacity up to 1 MW,2,1.385 
+ Wroc\uc0\u322 aw,co-fired technology (fossil fuel and biomass),1,0.000 
+ wroc\uc0\u322 awski,agricultural biogas power-stations,2,1.726 
+ wroc\uc0\u322 awski,"hydro-electric power-station capacity up to 0,3 MW",4,0.217 
+ z\uc0\u261 bkowicki,hydro-electric power-station capacity up to 1 MW,2,1.040 
+ zgorzelecki,sewage treatment plant biogas power-stations,1,0.240 
+ zgorzelecki,"hydro-electric power-station capacity up to 0,3 MW",3,0.162 
+ zgorzelecki,co-fired technology (fossil fuel and biomass),1,0.000 
+ z\uc0\u322 otoryjski,onshore wind power-station,3,64.000 
+ aleksandrowski,photovoltaic power-stations,2,0.140 
+ brodnicki,onshore wind power-station,18,21.785 
+ bydgoski,photovoltaic power-stations,1,0.024 
+ bydgoski,"hydro-electric power-station capacity up to 0,3 MW",3,0.172 
+ bydgoski,hydro-electric power-station capacity over 10 MW,1,26.000 
+ Bydgoszcz,sewage treatment plant biogas power-stations,1,1.022 
+ Bydgoszcz,"hydro-electric power-station capacity up to 0,3 MW",2,0.145 
+ Bydgoszcz,hydro-electric power-station capacity up to 5 MW,1,4.000 
+ che\uc0\u322 mi\uc0\u324 ski,onshore wind power-station,19,16.910 
+ golubsko-dobrzy\uc0\u324 ski,"biomass power-stations fired forest, agricultural, garden waste",1,3.200 
+ golubsko-dobrzy\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",3,0.076 
+ Grudzi\uc0\u261 dz,photovoltaic power-stations,1,0.096 
+ Grudzi\uc0\u261 dz,co-fired technology (fossil fuel and biomass),1,0.000 
+ grudzi\uc0\u261 dzki,agricultural biogas power-stations,1,1.600 
+ grudzi\uc0\u261 dzki,photovoltaic power-stations,1,1.500 
+ grudzi\uc0\u261 dzki,"hydro-electric power-station capacity up to 0,3 MW",4,0.302 
+ inowroc\uc0\u322 awski,sewage treatment plant biogas power-stations,1,0.320 
+ inowroc\uc0\u322 awski,"biomass power-stations fired forest, agricultural, garden waste",1,4.200 
+ inowroc\uc0\u322 awski,onshore wind power-station,35,46.920 
+ lipnowski,onshore wind power-station,19,47.230 
+ mogile\uc0\u324 ski,onshore wind power-station,9,14.300 
+ nakielski,onshore wind power-station,6,11.350 
+ radziejowski,photovoltaic power-stations,1,0.005 
+ rypi\uc0\u324 ski,agricultural biogas power-stations,2,1.965 
+ rypi\uc0\u324 ski,onshore wind power-station,14,18.350 
+ s\uc0\u281 pole\uc0\u324 ski,onshore wind power-station,2,8.000 
+ \uc0\u347 wiecki,agricultural biogas power-stations,1,1.800 
+ \uc0\u347 wiecki,biomass power-stations mixed biomass-fired,2,136.825 
+ \uc0\u347 wiecki,"hydro-electric power-station capacity up to 0,3 MW",7,0.195 
+ \uc0\u347 wiecki,hydro-electric power-station capacity up to 5 MW,1,3.900 
+ \uc0\u347 wiecki,co-fired technology (fossil fuel and biogas),1,0.000 
+ Toru\uc0\u324 ,sewage treatment plant biogas power-stations,1,1.240 
+ Toru\uc0\u324 ,photovoltaic power-stations,1,0.009 
+ toru\uc0\u324 ski,photovoltaic power-stations,2,3.770 
+ toru\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",1,0.033 
+ tucholski,onshore wind power-station,4,7.700 
+ tucholski,hydro-electric power-station capacity up to 1 MW,1,0.530 
+ w\uc0\u261 brzeski,dump biogas power-stations,1,0.382 
+ w\uc0\u261 brzeski,onshore wind power-station,6,7.200 
+ W\uc0\u322 oc\uc0\u322 awek,sewage treatment plant biogas power-stations,1,1.200 
+ W\uc0\u322 oc\uc0\u322 awek,hydro-electric power-station capacity over 10 MW,1,162.000 
+ w\uc0\u322 oc\uc0\u322 awski,dump biogas power-stations,1,0.313 
+ w\uc0\u322 oc\uc0\u322 awski,"hydro-electric power-station capacity up to 0,3 MW",2,0.112 
+ \uc0\u380 ni\uc0\u324 ski,onshore wind power-station,11,13.675 
+ bialski,agricultural biogas power-stations,2,2.044 
+ Bia\uc0\u322 a Podlaska,dump biogas power-stations,1,0.252 
+ Bia\uc0\u322 a Podlaska,mixed biogas power-stations,1,0.504 
+ bi\uc0\u322 gorajski,biomass power-stations fired wood-derivatives and pulp-paper industry production waste,1,2.600 
+ bi\uc0\u322 gorajski,onshore wind power-station,1,0.150 
+ che\uc0\u322 mski,onshore wind power-station,1,1.500 
+ hrubieszowski,photovoltaic power-stations,2,0.027 
+ krasnostawski,photovoltaic power-stations,3,3.110 
+ krasnostawski,"hydro-electric power-station capacity up to 0,3 MW",4,0.287 
+ kra\uc0\u347 nicki,sewage treatment plant biogas power-stations,1,0.634 
+ lubartowski,agricultural biogas power-stations,1,0.844 
+ lubartowski,photovoltaic power-stations,2,1.758 
+ lubelski,onshore wind power-station,1,0.500 
+ Lublin,sewage treatment plant biogas power-stations,1,1.702 
+ \uc0\u322 \uc0\u281 czy\uc0\u324 ski,photovoltaic power-stations,1,0.096 
+ \uc0\u322 ukowski,photovoltaic power-stations,6,3.578 
+ opolski,photovoltaic power-stations,2,0.974 
+ opolski,"hydro-electric power-station capacity up to 0,3 MW",3,0.098 
+ parczewski,agricultural biogas power-stations,2,3.600 
+ pu\uc0\u322 awski,sewage treatment plant biogas power-stations,1,0.370 
+ pu\uc0\u322 awski,"hydro-electric power-station capacity up to 0,3 MW",1,0.055 
+ radzy\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",2,0.092 
+ rycki,photovoltaic power-stations,1,1.312 
+ rycki,"hydro-electric power-station capacity up to 0,3 MW",1,0.040 
+ \uc0\u347 widnicki,agricultural biogas power-stations,1,0.999 
+ tomaszowski,photovoltaic power-stations,3,2.315 
+ tomaszowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.067 
+ w\uc0\u322 odawski,agricultural biogas power-stations,1,1.063 
+ zamojski,photovoltaic power-stations,4,0.039 
+ zamojski,hydro-electric power-station capacity up to 1 MW,1,0.370 
+ Zamo\uc0\u347 \uc0\u263 ,sewage treatment plant biogas power-stations,1,0.190 
+ gorzowski,photovoltaic power-stations,1,1.000 
+ Gorz\uc0\u243 w Wielkopolski,sewage treatment plant biogas power-stations,1,0.740 
+ kro\uc0\u347 nie\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.450 
+ kro\uc0\u347 nie\uc0\u324 ski,onshore wind power-station,1,0.300 
+ kro\uc0\u347 nie\uc0\u324 ski,hydro-electric power-station capacity up to 5 MW,2,4.140 
+ mi\uc0\u281 dzyrzecki,"hydro-electric power-station capacity up to 0,3 MW",4,0.128 
+ nowosolski,agricultural biogas power-stations,1,0.252 
+ nowosolski,onshore wind power-station,2,6.000 
+ s\uc0\u322 ubicki,onshore wind power-station,3,97.300 
+ strzelecko-drezdenecki,photovoltaic power-stations,1,0.039 
+ strzelecko-drezdenecki,"hydro-electric power-station capacity up to 0,3 MW",1,0.039 
+ sul\uc0\u281 ci\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",4,0.067 
+ \uc0\u347 wiebodzi\uc0\u324 ski,onshore wind power-station,1,6.000 
+ wschowski,photovoltaic power-stations,2,0.220 
+ Zielona G\uc0\u243 ra,"biomass power-stations fired forest, agricultural, garden waste",1,1.800 
+ zielonog\uc0\u243 rski,agricultural biogas power-stations,2,2.140 
+ zielonog\uc0\u243 rski,photovoltaic power-stations,2,0.045 
+ \uc0\u380 aga\uc0\u324 ski,onshore wind power-station,2,49.500 
+ \uc0\u380 aga\uc0\u324 ski,hydro-electric power-station capacity up to 1 MW,9,7.055 
+ \uc0\u380 arski,dump biogas power-stations,1,0.200 
+ \uc0\u380 arski,"hydro-electric power-station capacity up to 0,3 MW",1,0.009 
+ \uc0\u380 arski,hydro-electric power-station capacity up to 5 MW,2,2.909 
+ be\uc0\u322 chatowski,dump biogas power-stations,1,2.772 
+ be\uc0\u322 chatowski,onshore wind power-station,8,28.060 
+ brzezi\uc0\u324 ski,onshore wind power-station,4,2.700 
+ kutnowski,agricultural biogas power-stations,1,0.999 
+ kutnowski,onshore wind power-station,21,94.000 
+ \uc0\u322 aski,photovoltaic power-stations,1,0.005 
+ \uc0\u322 aski,"hydro-electric power-station capacity up to 0,3 MW",3,0.180 
+ \uc0\u322 \uc0\u281 czycki,onshore wind power-station,1,0.800 
+ \uc0\u322 owicki,onshore wind power-station,1,0.500 
+ \uc0\u322 \uc0\u243 dzki wschodni,onshore wind power-station,7,15.400 
+ \uc0\u321 \uc0\u243 d\uc0\u378 ,sewage treatment plant biogas power-stations,1,2.799 
+ \uc0\u321 \uc0\u243 d\uc0\u378 ,photovoltaic power-stations,2,0.377 
+ opoczy\uc0\u324 ski,agricultural biogas power-stations,1,0.500 
+ opoczy\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",4,0.291 
+ pabianicki,onshore wind power-station,4,1.555 
+ paj\uc0\u281 cza\uc0\u324 ski,onshore wind power-station,13,23.249 
+ piotrkowski,onshore wind power-station,25,34.350 
+ podd\uc0\u281 bicki,onshore wind power-station,14,9.490 
+ podd\uc0\u281 bicki,hydro-electric power-station capacity up to 5 MW,1,4.000 
+ radomszcza\uc0\u324 ski,agricultural biogas power-stations,1,0.600 
+ radomszcza\uc0\u324 ski,onshore wind power-station,25,51.935 
+ rawski,agricultural biogas power-stations,1,1.998 
+ rawski,"hydro-electric power-station capacity up to 0,3 MW",1,0.090 
+ sieradzki,onshore wind power-station,22,104.650 
+ Skierniewice,photovoltaic power-stations,1,0.003 
+ skierniewicki,sewage treatment plant biogas power-stations,1,0.190 
+ skierniewicki,"hydro-electric power-station capacity up to 0,3 MW",5,0.326 
+ tomaszowski,photovoltaic power-stations,1,0.039 
+ tomaszowski,"hydro-electric power-station capacity up to 0,3 MW",3,0.232 
+ wielu\uc0\u324 ski,onshore wind power-station,16,30.452 
+ wieruszowski,onshore wind power-station,1,0.095 
+ zdu\uc0\u324 skowolski,sewage treatment plant biogas power-stations,1,0.365 
+ zdu\uc0\u324 skowolski,onshore wind power-station,18,21.545 
+ zgierski,photovoltaic power-stations,1,0.040 
+ zgierski,"hydro-electric power-station capacity up to 0,3 MW",4,0.174 
+ boche\uc0\u324 ski,agricultural biogas power-stations,1,0.150 
+ boche\uc0\u324 ski,onshore wind power-station,1,0.068 
+ brzeski,photovoltaic power-stations,1,1.040 
+ chrzanowski,sewage treatment plant biogas power-stations,1,0.160 
+ chrzanowski,photovoltaic power-stations,1,0.003 
+ chrzanowski,co-fired technology (fossil fuel and biomass),2,0.000 
+ d\uc0\u261 browski,agricultural biogas power-stations,1,1.000 
+ gorlicki,"hydro-electric power-station capacity up to 0,3 MW",1,0.014 
+ krakowski,sewage treatment plant biogas power-stations,1,0.124 
+ krakowski,hydro-electric power-station capacity up to 1 MW,1,0.760 
+ krakowski,co-fired technology (fossil fuel and biomass),1,0.000 
+ Krak\uc0\u243 w,sewage treatment plant biogas power-stations,2,2.157 
+ Krak\uc0\u243 w,photovoltaic power-stations,2,0.065 
+ Krak\uc0\u243 w,co-fired technology (fossil fuel and biomass),1,0.000 
+ limanowski,sewage treatment plant biogas power-stations,1,0.999 
+ limanowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.075 
+ miechowski,photovoltaic power-stations,2,1.004 
+ miechowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.030 
+ my\uc0\u347 lenicki,photovoltaic power-stations,4,0.511 
+ my\uc0\u347 lenicki,hydro-electric power-station capacity up to 5 MW,1,2.500 
+ nowos\uc0\u261 decki,onshore wind power-station,2,0.460 
+ nowos\uc0\u261 decki,hydro-electric power-station capacity up to 1 MW,1,0.500 
+ nowotarski,photovoltaic power-stations,4,0.089 
+ nowotarski,"hydro-electric power-station capacity up to 0,3 MW",8,0.829 
+ nowotarski,hydro-electric power-station capacity up to 5 MW,1,2.080 
+ Nowy S\uc0\u261 cz,sewage treatment plant biogas power-stations,1,0.345 
+ olkuski,sewage treatment plant biogas power-stations,1,0.303 
+ olkuski,"hydro-electric power-station capacity up to 0,3 MW",1,0.068 
+ o\uc0\u347 wi\uc0\u281 cimski,sewage treatment plant biogas power-stations,2,0.550 
+ o\uc0\u347 wi\uc0\u281 cimski,hydro-electric power-station capacity up to 1 MW,1,0.945 
+ proszowicki,onshore wind power-station,4,1.200 
+ suski,"hydro-electric power-station capacity up to 0,3 MW",1,0.042 
+ tarnowski,photovoltaic power-stations,6,2.031 
+ Tarn\uc0\u243 w,dump biogas power-stations,1,0.352 
+ tatrza\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",6,0.930 
+ wadowicki,sewage treatment plant biogas power-stations,1,0.198 
+ wadowicki,hydro-electric power-station capacity up to 5 MW,1,3.700 
+ wielicki,photovoltaic power-stations,2,0.061 
+ ciechanowski,sewage treatment plant biogas power-stations,1,0.500 
+ ciechanowski,dump biogas power-stations,1,0.200 
+ garwoli\uc0\u324 ski,onshore wind power-station,1,2.000 
+ gostyni\uc0\u324 ski,onshore wind power-station,7,16.100 
+ grodziski,sewage treatment plant biogas power-stations,1,0.249 
+ gr\uc0\u243 jecki,onshore wind power-station,1,0.030 
+ kozienicki,photovoltaic power-stations,1,0.100 
+ legionowski,photovoltaic power-stations,3,0.087 
+ lipski,onshore wind power-station,2,0.500 
+ makowski,onshore wind power-station,2,12.000 
+ mi\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.160 
+ mi\uc0\u324 ski,onshore wind power-station,3,2.350 
+ m\uc0\u322 awski,dump biogas power-stations,1,2.300 
+ nowodworski,dump biogas power-stations,1,0.075 
+ ostro\uc0\u322 \uc0\u281 cki,dump biogas power-stations,1,0.170 
+ ostro\uc0\u322 \uc0\u281 cki,"hydro-electric power-station capacity up to 0,3 MW",1,0.115 
+ Ostro\uc0\u322 \uc0\u281 ka,sewage treatment plant biogas power-stations,1,0.514 
+ Ostro\uc0\u322 \uc0\u281 ka,co-fired technology (fossil fuel and biomass),2,0.000 
+ ostrowski,dump biogas power-stations,1,0.100 
+ otwocki,sewage treatment plant biogas power-stations,1,0.440 
+ otwocki,photovoltaic power-stations,1,0.027 
+ piaseczy\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.320 
+ piaseczy\uc0\u324 ski,onshore wind power-station,1,0.250 
+ p\uc0\u322 ocki,sewage treatment plant biogas power-stations,1,0.500 
+ p\uc0\u322 ocki,onshore wind power-station,8,8.250 
+ p\uc0\u322 o\uc0\u324 ski,dump biogas power-stations,1,0.500 
+ p\uc0\u322 o\uc0\u324 ski,onshore wind power-station,7,11.700 
+ p\uc0\u322 o\uc0\u324 ski,hydro-electric power-station capacity up to 1 MW,1,0.375 
+ pruszkowski,dump biogas power-stations,1,0.640 
+ przasnyski,photovoltaic power-stations,1,0.040 
+ przysuski,onshore wind power-station,1,0.850 
+ Radom,dump biogas power-stations,1,0.677 
+ Radom,onshore wind power-station,2,0.256 
+ radomski,onshore wind power-station,5,63.765 
+ Siedlce,sewage treatment plant biogas power-stations,1,0.380 
+ siedlecki,dump biogas power-stations,1,0.228 
+ sierpecki,onshore wind power-station,6,15.200 
+ sochaczewski,onshore wind power-station,1,0.750 
+ soko\uc0\u322 owski,agricultural biogas power-stations,1,0.700 
+ szyd\uc0\u322 owiecki,onshore wind power-station,2,2.600 
+ Warszawa,sewage treatment plant biogas power-stations,1,5.660 
+ Warszawa,co-fired technology (fossil fuel and biomass),1,0.000 
+ warszawski zachodni,dump biogas power-stations,2,0.823 
+ w\uc0\u281 growski,agricultural biogas power-stations,1,0.999 
+ w\uc0\u281 growski,"hydro-electric power-station capacity up to 0,3 MW",2,0.219 
+ wo\uc0\u322 omi\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.123 
+ wo\uc0\u322 omi\uc0\u324 ski,onshore wind power-station,1,0.750 
+ wyszkowski,onshore wind power-station,1,0.300 
+ zwole\uc0\u324 ski,onshore wind power-station,2,1.250 
+ \uc0\u380 uromi\uc0\u324 ski,onshore wind power-station,14,77.660 
+ \uc0\u380 yrardowski,sewage treatment plant biogas power-stations,1,0.140 
+ \uc0\u380 yrardowski,photovoltaic power-stations,1,0.010 
+ \uc0\u380 yrardowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.065 
+ brzeski,sewage treatment plant biogas power-stations,1,0.300 
+ brzeski,hydro-electric power-station capacity up to 1 MW,1,0.400 
+ g\uc0\u322 ubczycki,onshore wind power-station,2,32.500 
+ k\uc0\u281 dzierzy\uc0\u324 sko-kozielski,dump biogas power-stations,1,0.132 
+ k\uc0\u281 dzierzy\uc0\u324 sko-kozielski,onshore wind power-station,1,0.450 
+ k\uc0\u281 dzierzy\uc0\u324 sko-kozielski,hydro-electric power-station capacity up to 1 MW,1,1.000 
+ kluczborski,onshore wind power-station,2,4.000 
+ krapkowicki,photovoltaic power-stations,1,0.041 
+ krapkowicki,hydro-electric power-station capacity up to 1 MW,1,0.500 
+ namys\uc0\u322 owski,agricultural biogas power-stations,1,2.000 
+ namys\uc0\u322 owski,onshore wind power-station,3,61.000 
+ nyski,sewage treatment plant biogas power-stations,1,0.250 
+ nyski,onshore wind power-station,2,37.250 
+ nyski,hydro-electric power-station capacity up to 1 MW,1,0.760 
+ nyski,hydro-electric power-station capacity up to 10 MW,1,6.646 
+ oleski,photovoltaic power-stations,1,0.004 
+ Opole,sewage treatment plant biogas power-stations,1,0.562 
+ Opole,hydro-electric power-station capacity up to 5 MW,1,1.060 
+ opolski,photovoltaic power-stations,1,0.001 
+ opolski,hydro-electric power-station capacity up to 1 MW,1,1.000 
+ opolski,co-fired technology (fossil fuel and biomass),2,0.000 
+ prudnicki,"hydro-electric power-station capacity up to 0,3 MW",1,0.040 
+ strzelecki,photovoltaic power-stations,2,0.764 
+ strzelecki,"hydro-electric power-station capacity up to 0,3 MW",3,0.213 
+ bieszczadzki,"biomass power-stations fired forest, agricultural, garden waste",1,1.400 
+ brzozowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.010 
+ d\uc0\u281 bicki,sewage treatment plant biogas power-stations,1,0.192 
+ d\uc0\u281 bicki,hydro-electric power-station capacity up to 1 MW,1,0.825 
+ jaros\uc0\u322 awski,sewage treatment plant biogas power-stations,1,0.129 
+ jaros\uc0\u322 awski,onshore wind power-station,1,0.300 
+ jasielski,sewage treatment plant biogas power-stations,2,0.428 
+ jasielski,onshore wind power-station,2,0.900 
+ kolbuszowski,"biomass power-stations fired forest, agricultural, garden waste",1,0.580 
+ kolbuszowski,onshore wind power-station,2,0.290 
+ Krosno,sewage treatment plant biogas power-stations,1,0.384 
+ Krosno,"biomass power-stations fired forest, agricultural, garden waste",1,1.400 
+ kro\uc0\u347 nie\uc0\u324 ski,dump biogas power-stations,1,0.055 
+ kro\uc0\u347 nie\uc0\u324 ski,onshore wind power-station,8,42.670 
+ leski,photovoltaic power-stations,1,0.020 
+ leski,hydro-electric power-station capacity up to 10 MW,1,8.300 
+ le\uc0\u380 ajski,agricultural biogas power-stations,1,0.999 
+ lubaczowski,agricultural biogas power-stations,1,0.999 
+ \uc0\u322 a\uc0\u324 cucki,photovoltaic power-stations,1,0.010 
+ mielecki,sewage treatment plant biogas power-stations,2,0.562 
+ przemyski,onshore wind power-station,4,18.600 
+ Przemy\uc0\u347 l,sewage treatment plant biogas power-stations,1,0.340 
+ przeworski,onshore wind power-station,1,67.500 
+ ropczycko-s\uc0\u281 dziszowski,dump biogas power-stations,1,1.377 
+ rzeszowski,photovoltaic power-stations,2,0.680 
+ Rzesz\uc0\u243 w,sewage treatment plant biogas power-stations,1,1.010 
+ Rzesz\uc0\u243 w,hydro-electric power-station capacity up to 1 MW,1,0.660 
+ sanocki,agricultural biogas power-stations,1,0.500 
+ sanocki,onshore wind power-station,1,18.000 
+ stalowowolski,sewage treatment plant biogas power-stations,1,0.208 
+ stalowowolski,photovoltaic power-stations,1,0.099 
+ stalowowolski,"hydro-electric power-station capacity up to 0,3 MW",1,0.040 
+ strzy\uc0\u380 owski,photovoltaic power-stations,2,0.013 
+ tarnobrzeski,photovoltaic power-stations,1,0.660 
+ augustowski,photovoltaic power-stations,1,0.268 
+ bia\uc0\u322 ostocki,agricultural biogas power-stations,3,2.949 
+ bia\uc0\u322 ostocki,photovoltaic power-stations,7,4.207 
+ bia\uc0\u322 ostocki,"hydro-electric power-station capacity up to 0,3 MW",2,0.066 
+ Bia\uc0\u322 ystok,sewage treatment plant biogas power-stations,1,1.532 
+ Bia\uc0\u322 ystok,photovoltaic power-stations,5,0.113 
+ bielski,agricultural biogas power-stations,1,0.999 
+ bielski,onshore wind power-station,2,28.500 
+ grajewski,"biomass power-stations fired forest, agricultural, garden waste",1,0.628 
+ grajewski,onshore wind power-station,1,25.300 
+ hajnowski,agricultural biogas power-stations,1,0.999 
+ hajnowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.166 
+ kolne\uc0\u324 ski,photovoltaic power-stations,1,1.840 
+ \uc0\u321 om\uc0\u380 a,sewage treatment plant biogas power-stations,1,0.370 
+ \uc0\u322 om\uc0\u380 y\uc0\u324 ski,photovoltaic power-stations,1,0.711 
+ siemiatycki,sewage treatment plant biogas power-stations,1,0.190 
+ sok\uc0\u243 lski,agricultural biogas power-stations,2,1.099 
+ suwalski,photovoltaic power-stations,1,0.098 
+ suwalski,"hydro-electric power-station capacity up to 0,3 MW",2,0.060 
+ Suwa\uc0\u322 ki,sewage treatment plant biogas power-stations,1,0.360 
+ wysokomazowiecki,sewage treatment plant biogas power-stations,1,1.600 
+ wysokomazowiecki,photovoltaic power-stations,1,0.041 
+ wysokomazowiecki,"hydro-electric power-station capacity up to 0,3 MW",3,0.160 
+ zambrowski,photovoltaic power-stations,1,0.998 
+ bytowski,onshore wind power-station,1,1.900 
+ bytowski,hydro-electric power-station capacity up to 1 MW,1,0.315 
+ chojnicki,onshore wind power-station,1,6.000 
+ chojnicki,hydro-electric power-station capacity up to 1 MW,1,0.860 
+ cz\uc0\u322 uchowski,agricultural biogas power-stations,5,5.759 
+ Gda\uc0\u324 sk,sewage treatment plant biogas power-stations,1,2.864 
+ Gda\uc0\u324 sk,biomass power-stations mixed biomass-fired,1,0.950 
+ Gda\uc0\u324 sk,co-fired technology (fossil fuel and biomass),1,0.000 
+ gda\uc0\u324 ski,photovoltaic power-stations,2,0.078 
+ gda\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",5,0.704 
+ gda\uc0\u324 ski,hydro-electric power-station capacity up to 5 MW,3,7.575 
+ Gdynia,co-fired technology (fossil fuel and biomass),1,0.000 
+ kartuski,onshore wind power-station,1,0.075 
+ kartuski,hydro-electric power-station capacity up to 1 MW,1,0.560 
+ ko\uc0\u347 cierski,photovoltaic power-stations,2,0.046 
+ kwidzy\uc0\u324 ski,dump biogas power-stations,1,0.065 
+ kwidzy\uc0\u324 ski,onshore wind power-station,1,12.000 
+ kwidzy\uc0\u324 ski,co-fired technology (fossil fuel and biomass),1,0.000 
+ l\uc0\u281 borski,agricultural biogas power-stations,1,1.200 
+ l\uc0\u281 borski,onshore wind power-station,5,168.010 
+ malborski,agricultural biogas power-stations,1,0.800 
+ malborski,hydro-electric power-station capacity up to 1 MW,2,1.380 
+ nowodworski,onshore wind power-station,3,41.500 
+ pucki,sewage treatment plant biogas power-stations,1,0.600 
+ pucki,"hydro-electric power-station capacity up to 0,3 MW",2,0.024 
+ S\uc0\u322 upsk,sewage treatment plant biogas power-stations,1,0.942 
+ S\uc0\u322 upsk,onshore wind power-station,1,2.000 
+ s\uc0\u322 upski,sewage treatment plant biogas power-stations,1,0.091 
+ s\uc0\u322 upski,dump biogas power-stations,1,0.200 
+ s\uc0\u322 upski,"hydro-electric power-station capacity up to 0,3 MW",9,0.945 
+ s\uc0\u322 upski,hydro-electric power-station capacity up to 5 MW,1,2.400 
+ starogardzki,"hydro-electric power-station capacity up to 0,3 MW",9,1.435 
+ sztumski,onshore wind power-station,5,33.300 
+ tczewski,dump biogas power-stations,1,0.600 
+ tczewski,"hydro-electric power-station capacity up to 0,3 MW",4,0.326 
+ wejherowski,dump biogas power-stations,1,1.989 
+ wejherowski,"hydro-electric power-station capacity up to 0,3 MW",10,0.534 
+ b\uc0\u281 dzi\uc0\u324 ski,photovoltaic power-stations,3,0.081 
+ b\uc0\u281 dzi\uc0\u324 ski,co-fired technology (fossil fuel and biomass),1,0.000 
+ bielski,sewage treatment plant biogas power-stations,1,0.180 
+ bielski,photovoltaic power-stations,6,2.162 
+ bielski,co-fired technology (fossil fuel and biomass),1,0.000 
+ Bielsko-Bia\uc0\u322 a,sewage treatment plant biogas power-stations,1,0.536 
+ Bielsko-Bia\uc0\u322 a,photovoltaic power-stations,2,0.018 
+ bieru\uc0\u324 sko-l\uc0\u281 dzi\uc0\u324 ski,photovoltaic power-stations,3,0.118 
+ Bytom,sewage treatment plant biogas power-stations,1,0.400 
+ Bytom,photovoltaic power-stations,1,0.104 
+ Chorz\uc0\u243 w,sewage treatment plant biogas power-stations,1,0.990 
+ Chorz\uc0\u243 w,co-fired technology (fossil fuel and biomass),1,0.000 
+ cieszy\uc0\u324 ski,photovoltaic power-stations,6,0.335 
+ Cz\uc0\u281 stochowa,sewage treatment plant biogas power-stations,1,0.830 
+ Cz\uc0\u281 stochowa,onshore wind power-station,1,0.800 
+ Cz\uc0\u281 stochowa,co-fired technology (fossil fuel and biomass),1,0.000 
+ cz\uc0\u281 stochowski,dump biogas power-stations,1,0.648 
+ cz\uc0\u281 stochowski,"hydro-electric power-station capacity up to 0,3 MW",10,0.973 
+ D\uc0\u261 browa G\uc0\u243 rnicza,sewage treatment plant biogas power-stations,1,0.253 
+ Gliwice,sewage treatment plant biogas power-stations,1,0.551 
+ Gliwice,photovoltaic power-stations,3,0.136 
+ Gliwice,hydro-electric power-station capacity up to 1 MW,1,0.360 
+ gliwicki,agricultural biogas power-stations,2,1.212 
+ gliwicki,onshore wind power-station,1,1.500 
+ gliwicki,co-fired technology (fossil fuel and biomass),1,0.000 
+ Jastrz\uc0\u281 bie-Zdr\uc0\u243 j,sewage treatment plant biogas power-stations,1,0.380 
+ Jastrz\uc0\u281 bie-Zdr\uc0\u243 j,co-fired technology (fossil fuel and biomass),1,0.000 
+ Jaworzno,biomass power-stations mixed biomass-fired,1,50.000 
+ Jaworzno,"hydro-electric power-station capacity up to 0,3 MW",1,0.055 
+ Katowice,photovoltaic power-stations,9,0.855 
+ k\uc0\u322 obucki,photovoltaic power-stations,1,0.021 
+ k\uc0\u322 obucki,"hydro-electric power-station capacity up to 0,3 MW",4,0.285 
+ lubliniecki,photovoltaic power-stations,2,0.022 
+ miko\uc0\u322 owski,co-fired technology (fossil fuel and biomass),1,0.000 
+ myszkowski,photovoltaic power-stations,3,0.107 
+ pszczy\uc0\u324 ski,dump biogas power-stations,1,0.100 
+ raciborski,sewage treatment plant biogas power-stations,1,0.190 
+ Ruda \uc0\u346 l\uc0\u261 ska,"biomass power-stations fired forest, agricultural, garden waste",1,0.210 
+ rybnicki,photovoltaic power-stations,1,0.020 
+ Rybnik,sewage treatment plant biogas power-stations,1,0.190 
+ Rybnik,co-fired technology (fossil fuel and biomass),2,0.000 
+ Siemianowice \uc0\u346 l\uc0\u261 skie,dump biogas power-stations,1,3.420 
+ Sosnowiec,sewage treatment plant biogas power-stations,1,0.740 
+ Sosnowiec,photovoltaic power-stations,2,0.021 
+ Tychy,sewage treatment plant biogas power-stations,1,1.090 
+ Tychy,biomass power-stations mixed biomass-fired,1,40.000 
+ wodzis\uc0\u322 awski,sewage treatment plant biogas power-stations,1,0.154 
+ Zabrze,sewage treatment plant biogas power-stations,1,0.380 
+ Zabrze,photovoltaic power-stations,2,0.166 
+ zawiercia\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.500 
+ zawiercia\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",1,0.030 
+ \uc0\u379 ory,sewage treatment plant biogas power-stations,1,0.208 
+ \uc0\u380 ywiecki,sewage treatment plant biogas power-stations,1,0.303 
+ \uc0\u380 ywiecki,"hydro-electric power-station capacity up to 0,3 MW",1,0.165 
+ buski,photovoltaic power-stations,1,0.025 
+ j\uc0\u281 drzejowski,onshore wind power-station,1,0.660 
+ kazimierski,onshore wind power-station,1,0.330 
+ Kielce,biomass power-stations mixed biomass-fired,1,6.710 
+ kielecki,sewage treatment plant biogas power-stations,1,0.802 
+ kielecki,dump biogas power-stations,1,0.360 
+ kielecki,photovoltaic power-stations,5,0.198 
+ kielecki,"hydro-electric power-station capacity up to 0,3 MW",7,0.252 
+ konecki,onshore wind power-station,4,3.550 
+ opatowski,onshore wind power-station,1,0.250 
+ ostrowiecki,sewage treatment plant biogas power-stations,1,0.180 
+ ostrowiecki,onshore wind power-station,2,1.200 
+ pi\uc0\u324 czowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.074 
+ sandomierski,onshore wind power-station,3,3.360 
+ skar\uc0\u380 yski,"hydro-electric power-station capacity up to 0,3 MW",1,0.030 
+ starachowicki,photovoltaic power-stations,2,0.022 
+ starachowicki,hydro-electric power-station capacity up to 1 MW,1,0.450 
+ staszowski,biomass power-stations mixed biomass-fired,1,230.000 
+ staszowski,co-fired technology (fossil fuel and biomass),1,0.000 
+ w\uc0\u322 oszczowski,"biomass power-stations fired forest, agricultural, garden waste",1,1.900 
+ w\uc0\u322 oszczowski,"hydro-electric power-station capacity up to 0,3 MW",1,0.015 
+ bartoszycki,"hydro-electric power-station capacity up to 0,3 MW",1,0.110 
+ braniewski,onshore wind power-station,1,20.000 
+ braniewski,hydro-electric power-station capacity up to 1 MW,2,1.300 
+ dzia\uc0\u322 dowski,onshore wind power-station,4,48.500 
+ Elbl\uc0\u261 g,sewage treatment plant biogas power-stations,1,0.400 
+ Elbl\uc0\u261 g,biomass power-stations mixed biomass-fired,1,25.000 
+ elbl\uc0\u261 ski,onshore wind power-station,2,3.850 
+ e\uc0\u322 cki,sewage treatment plant biogas power-stations,1,0.503 
+ e\uc0\u322 cki,photovoltaic power-stations,1,0.050 
+ e\uc0\u322 cki,"hydro-electric power-station capacity up to 0,3 MW",2,0.092 
+ gi\uc0\u380 ycki,agricultural biogas power-stations,2,1.495 
+ gi\uc0\u380 ycki,onshore wind power-station,1,4.500 
+ go\uc0\u322 dapski,photovoltaic power-stations,1,0.611 
+ go\uc0\u322 dapski,"hydro-electric power-station capacity up to 0,3 MW",6,0.865 
+ i\uc0\u322 awski,sewage treatment plant biogas power-stations,1,0.443 
+ i\uc0\u322 awski,photovoltaic power-stations,1,0.099 
+ i\uc0\u322 awski,"hydro-electric power-station capacity up to 0,3 MW",1,0.076 
+ k\uc0\u281 trzy\uc0\u324 ski,agricultural biogas power-stations,2,1.399 
+ k\uc0\u281 trzy\uc0\u324 ski,onshore wind power-station,1,70.000 
+ lidzbarski,photovoltaic power-stations,1,0.040 
+ lidzbarski,"hydro-electric power-station capacity up to 0,3 MW",9,0.831 
+ mr\uc0\u261 gowski,photovoltaic power-stations,1,0.500 
+ nidzicki,photovoltaic power-stations,2,0.080 
+ nowomiejski,agricultural biogas power-stations,1,2.000 
+ nowomiejski,onshore wind power-station,2,1.600 
+ olecki,agricultural biogas power-stations,2,2.126 
+ olecki,"hydro-electric power-station capacity up to 0,3 MW",3,0.141 
+ Olsztyn,sewage treatment plant biogas power-stations,1,0.702 
+ Olsztyn,"hydro-electric power-station capacity up to 0,3 MW",1,0.154 
+ olszty\uc0\u324 ski,sewage treatment plant biogas power-stations,1,0.800 
+ olszty\uc0\u324 ski,dump biogas power-stations,1,0.802 
+ olszty\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",15,0.996 
+ ostr\uc0\u243 dzki,sewage treatment plant biogas power-stations,1,0.690 
+ ostr\uc0\u243 dzki,dump biogas power-stations,1,0.400 
+ ostr\uc0\u243 dzki,photovoltaic power-stations,2,0.128 
+ szczycie\uc0\u324 ski,photovoltaic power-stations,3,1.380 
+ w\uc0\u281 gorzewski,photovoltaic power-stations,1,1.000 
+ w\uc0\u281 gorzewski,hydro-electric power-station capacity up to 1 MW,1,0.400 
+ chodzieski,onshore wind power-station,3,122.100 
+ czarnkowsko-trzcianecki,onshore wind power-station,4,6.325 
+ czarnkowsko-trzcianecki,hydro-electric power-station capacity up to 1 MW,1,0.360 
+ gnie\uc0\u378 nie\uc0\u324 ski,agricultural biogas power-stations,1,0.999 
+ gnie\uc0\u378 nie\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",1,0.015 
+ gosty\uc0\u324 ski,photovoltaic power-stations,1,0.040 
+ grodziski,onshore wind power-station,3,5.610 
+ jaroci\uc0\u324 ski,onshore wind power-station,6,11.800 
+ kaliski,agricultural biogas power-stations,1,1.600 
+ kaliski,photovoltaic power-stations,1,0.009 
+ kaliski,"hydro-electric power-station capacity up to 0,3 MW",1,0.075 
+ Kalisz,"hydro-electric power-station capacity up to 0,3 MW",1,0.065 
+ kolski,onshore wind power-station,32,40.750 
+ Konin,agricultural biogas power-stations,1,2.134 
+ Konin,biomass power-stations mixed biomass-fired,1,55.000 
+ Konin,co-fired technology (fossil fuel and biomass),1,0.000 
+ koni\uc0\u324 ski,dump biogas power-stations,1,1.600 
+ koni\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",2,0.097 
+ ko\uc0\u347 cia\uc0\u324 ski,onshore wind power-station,3,11.000 
+ krotoszy\uc0\u324 ski,agricultural biogas power-stations,1,1.200 
+ leszczy\uc0\u324 ski,dump biogas power-stations,1,0.966 
+ leszczy\uc0\u324 ski,onshore wind power-station,4,10.745 
+ Leszno,photovoltaic power-stations,1,0.007 
+ mi\uc0\u281 dzychodzki,dump biogas power-stations,1,0.400 
+ mi\uc0\u281 dzychodzki,photovoltaic power-stations,1,0.900 
+ nowotomyski,photovoltaic power-stations,1,0.280 
+ nowotomyski,"hydro-electric power-station capacity up to 0,3 MW",1,0.020 
+ obornicki,onshore wind power-station,4,6.050 
+ obornicki,hydro-electric power-station capacity up to 1 MW,1,0.500 
+ ostrowski,sewage treatment plant biogas power-stations,1,0.384 
+ ostrowski,biomass power-stations mixed biomass-fired,1,1.500 
+ ostrowski,onshore wind power-station,16,21.150 
+ ostrzeszowski,agricultural biogas power-stations,1,0.990 
+ ostrzeszowski,onshore wind power-station,2,3.400 
+ pilski,agricultural biogas power-stations,1,0.526 
+ pilski,onshore wind power-station,1,0.900 
+ pilski,hydro-electric power-station capacity up to 1 MW,1,0.320 
+ pleszewski,sewage treatment plant biogas power-stations,2,0.856 
+ pleszewski,"hydro-electric power-station capacity up to 0,3 MW",1,0.300 
+ Pozna\uc0\u324 ,sewage treatment plant biogas power-stations,2,2.121 
+ Pozna\uc0\u324 ,co-fired technology (fossil fuel and biomass),1,0.000 
+ pozna\uc0\u324 ski,sewage treatment plant biogas power-stations,1,2.793 
+ pozna\uc0\u324 ski,dump biogas power-stations,3,1.724 
+ pozna\uc0\u324 ski,onshore wind power-station,1,1.000 
+ rawicki,onshore wind power-station,1,5.000 
+ s\uc0\u322 upecki,onshore wind power-station,12,25.000 
+ szamotulski,onshore wind power-station,1,1.000 
+ \uc0\u347 redzki,photovoltaic power-stations,1,0.040 
+ \uc0\u347 remski,sewage treatment plant biogas power-stations,1,0.123 
+ turecki,agricultural biogas power-stations,1,1.897 
+ turecki,onshore wind power-station,8,5.695 
+ w\uc0\u261 growiecki,photovoltaic power-stations,1,0.040 
+ wolszty\uc0\u324 ski,onshore wind power-station,2,2.490 
+ wrzesi\uc0\u324 ski,photovoltaic power-stations,2,0.050 
+ z\uc0\u322 otowski,onshore wind power-station,4,16.350 
+ z\uc0\u322 otowski,hydro-electric power-station capacity up to 1 MW,1,0.500 
+ bia\uc0\u322 ogardzki,onshore wind power-station,4,95.018 
+ bia\uc0\u322 ogardzki,hydro-electric power-station capacity up to 1 MW,1,0.598 
+ choszcze\uc0\u324 ski,onshore wind power-station,4,33.500 
+ drawski,agricultural biogas power-stations,3,3.061 
+ drawski,onshore wind power-station,1,10.123 
+ drawski,hydro-electric power-station capacity up to 1 MW,1,0.910 
+ goleniowski,onshore wind power-station,2,0.825 
+ gryficki,agricultural biogas power-stations,1,0.999 
+ gryficki,onshore wind power-station,7,49.975 
+ gryficki,hydro-electric power-station capacity up to 1 MW,2,1.260 
+ gryfi\uc0\u324 ski,agricultural biogas power-stations,1,0.330 
+ gryfi\uc0\u324 ski,onshore wind power-station,2,56.000 
+ gryfi\uc0\u324 ski,co-fired technology (fossil fuel and biomass),1,0.000 
+ kamie\uc0\u324 ski,onshore wind power-station,3,90.600 
+ ko\uc0\u322 obrzeski,dump biogas power-stations,1,1.063 
+ ko\uc0\u322 obrzeski,onshore wind power-station,9,236.082 
+ Koszalin,onshore wind power-station,1,0.004 
+ koszali\uc0\u324 ski,agricultural biogas power-stations,2,1.250 
+ koszali\uc0\u324 ski,photovoltaic power-stations,3,0.277 
+ koszali\uc0\u324 ski,"hydro-electric power-station capacity up to 0,3 MW",4,0.262 
+ \uc0\u322 obeski,agricultural biogas power-stations,2,2.599 
+ \uc0\u322 obeski,"hydro-electric power-station capacity up to 0,3 MW",11,0.807 
+ my\uc0\u347 liborski,dump biogas power-stations,1,0.181 
+ my\uc0\u347 liborski,"hydro-electric power-station capacity up to 0,3 MW",6,0.775 
+ policki,dump biogas power-stations,1,0.360 
+ pyrzycki,onshore wind power-station,1,5.000 
+ s\uc0\u322 awie\uc0\u324 ski,onshore wind power-station,42,510.388 
+ stargardzki,dump biogas power-stations,1,0.200 
+ stargardzki,onshore wind power-station,4,66.650 
+ stargardzki,co-fired technology (fossil fuel and biomass),1,0.000 
+ Szczecin,sewage treatment plant biogas power-stations,2,0.938 
+ Szczecin,biomass power-stations mixed biomass-fired,1,68.500 
+ Szczecin,"hydro-electric power-station capacity up to 0,3 MW",2,0.207 
+ szczecinecki,sewage treatment plant biogas power-stations,1,0.160 
+ szczecinecki,dump biogas power-stations,2,0.500 
+ szczecinecki,onshore wind power-station,2,3.650 
+ \uc0\u347 widwi\uc0\u324 ski,agricultural biogas power-stations,1,0.800 
+ \uc0\u346 winouj\uc0\u347 cie,sewage treatment plant biogas power-stations,1,0.380 
+ wa\uc0\u322 ecki,agricultural biogas power-stations,1,0.999 
+ wa\uc0\u322 ecki,onshore wind power-station,5,7.210 
