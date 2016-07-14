@@ -21,7 +21,6 @@ with open('polish.rtf', 'r') as rtf:
 
 file_content = file_content.encode('utf-8').decode('iso-8859-2')
 
-# match everything that is comes after ...
 # needs more refactoring to propery extract the name (probably manually
 reg_exp_power_plant_name = r'(?<=Powiat:).*(?=})'
 # a new line is separating all parts
