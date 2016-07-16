@@ -10,5 +10,5 @@ This script transform the file to nice csv.
 
 import pandas as pd
 
-df = pd.read_csv('tabula-one-header.csv')
+df = pd.read_csv('tabula-extracted_tables.csv')
 print(df)
